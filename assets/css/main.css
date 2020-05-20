@@ -79,9 +79,9 @@ body{
 	width: 100%;
 	background-color: #111;
 	z-index: 1;
-	padding: 20px 0;
-	padding-left: 40%;
-	color: #fff;
+	padding: 20px;
+	padding-right: 100px;
+	color: white;
 	text-transform: uppercase;
 	font-family: 'Roboto';
 }
