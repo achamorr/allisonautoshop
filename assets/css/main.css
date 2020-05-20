@@ -54,7 +54,7 @@ body{
 .btn-robot{
 	border-radius: 0;
 	background-color: #0000ffff;
-	color: #fff;
+	color:white;
 	text-transform: uppercase;
 	border-color: transparent;
 	padding: 5px 15px;
@@ -116,7 +116,7 @@ body{
 	position: relative;
 }
 .header-quote{
-	color: #;
+	color: #ffffff;
 	font-weight: 700;
 	margin-bottom: 0;
 }
