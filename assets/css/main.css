@@ -61,7 +61,7 @@ body{
 	transition: all 0.4s ease-in-out;
 	letter-spacing: 1px;
 	font-weight: 300;
-	margin-top: 15px;
+	margin-top: auto;
 }
 .btn-robot:hover{
 	background-color: transparent;
@@ -97,25 +97,27 @@ body{
 	border-radius: 0;
 }
 .site-header-bg .btn-robot{
-	margin-top: 0;
+	margin-top: auto;
 	padding-bottom: 6px;
 }
-
-
-
 
 /*======================================================================
 ##		Header Section
 =======================================================================*/
 .main-header{
+	/*used for call number
+	*/
 	text-transform: uppercase;
 	text-align: center;
-	color: #fff;
+	color: black;
 	letter-spacing: 3px;
 	background: #111;
 	position: relative;
 }
+
 .header-quote{
+	/*main bold words on picture
+	*/
 	color: #ffffff;
 	font-weight: 700;
 	margin-bottom: 0;
@@ -132,12 +134,14 @@ body{
 	letter-spacing: 6px;
 }
 .intro{
-	padding: 200px 0;
     background-image: url(../images/header.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    margin-bottom: -90px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding: 150px;
+	
+	margin-bottom: -90px;
+	
     z-index: 11;
     position: relative;
 }
