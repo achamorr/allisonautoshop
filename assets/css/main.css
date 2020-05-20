@@ -2,7 +2,7 @@ body{
 	background-color: #ededed;
 	font-family: 'Oswald';
 	position: relative;
-	margin-top: 0;
+	margin-top: 10;
 }
 
 /*======================================================================
@@ -31,7 +31,7 @@ body{
 }
 .title-box{
 	text-align: center;
-	padding: 100px 0 50px;
+	padding: 30px 0 50px;
 	text-transform: uppercase;
 }
 .title-box p{
@@ -297,12 +297,14 @@ body{
 	position: relative;
 }
 .product p{
+	padding-top: 5%;
 	color: #999;
 	font-size: 14px;
 	text-align: justify;
 	margin-bottom: 30px;
 }
 .product p.p-large{
+	padding-top: 10%;
 	font-size: 16px;
 	font-weight: 400;
 }
