@@ -60,8 +60,10 @@ body{
 .title span{
 	color: #444;
 }
+
+/*view services button*/
 .btn-robot{
-	border-radius: 0;
+	border-radius: 30px;
 	background-color: #0000ffff;
 	color:white;
 	text-transform: uppercase;
@@ -72,6 +74,20 @@ body{
 	font-weight: 300;
 	margin-top: auto;
 }
+
+.btn-call{
+	border-radius: 30px;
+	background-color: white;
+	color:black;
+	text-transform: uppercase;
+	border-color: transparent;
+	padding: 5px 15px;
+	transition: all 0.4s ease-in-out;
+	letter-spacing: 1px;
+	font-weight: 300;
+	margin-top: auto;
+}
+
 .btn-robot:hover{
 	background-color: transparent;
 	color: #0000ffff;
@@ -104,6 +120,8 @@ body{
 .site-header-bg .input-group .btn{
 	text-transform: uppercase;
 	border-radius: 0;
+	
+
 }
 .site-header-bg .btn-robot{
 	margin-top: auto;
@@ -116,6 +134,7 @@ body{
 .main-header{
 	/*used for call number
 	*/
+	
 	text-transform: uppercase;
 	text-align: center;
 	color: black;
@@ -153,7 +172,6 @@ body{
 
 */
 
-	
 	z-index: 11;
 	position: relative;
 	
