@@ -140,10 +140,14 @@ body{
 	background-position: center;
 	padding: 150px;
 	
-	margin-bottom: -90px;
+	/*margin-bottom: -90px;
+
+*/
+
 	
-    z-index: 11;
-    position: relative;
+	z-index: 11;
+	position: relative;
+	
 }
 .nutral{
 	background-color: #ebebeb;
