@@ -44,10 +44,19 @@ body{
 	letter-spacing: 2px;
 }
 .title.mt0{
+	
 	text-transform: capitalize;
 	font-weight: 400;
 	color: #444;
 }
+
+.title.welcome{
+	padding-top: 8%;
+	text-transform: capitalize;
+	font-weight: 400;
+	color: #444;
+}
+
 .title span{
 	color: #444;
 }
@@ -226,8 +235,9 @@ body{
 	margin-top: 30px;
 }
 .widget-img{
-	width: 49%;
-	display: inline-block;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 .footer{
 	padding: 10px 0 20px;
@@ -305,13 +315,13 @@ body{
 	position: relative;
 }
 .product p{
-	padding-top: 5%;
+	padding-top: 7%;
 	color: #999;
 	font-size: 14px;
-	margin-bottom: 30px;
+	margin-bottom: 5%;
 }
 .product p.p-large{
-	padding-top: 10%;
+	padding-top: 5%;
 	font-size: 16px;
 	font-weight: 400;
 }
@@ -393,7 +403,7 @@ body{
 }
 .inner-p{
 	text-align: center;
-	margin-bottom: 80px;
+	margin-bottom: 30px;
 	font-size: 16px;
 }
 .page-bgc{
