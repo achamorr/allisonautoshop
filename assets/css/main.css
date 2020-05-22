@@ -62,9 +62,9 @@ body{
 }
 
 /*view services button*/
-.btn-robot{
+.btn-view-services{
 	border-radius: 30px;
-	background-color: #0000ffff;
+	background-color: #20368F;
 	color:white;
 	text-transform: uppercase;
 	border-color: transparent;
@@ -300,7 +300,7 @@ body{
     left: 25px;
     right: 25px;
     padding: 15px;
-    background-color: #0000ffff;
+    background-color: #20368F;
     text-transform: uppercase;
     color: #fff;
     text-align: center;
@@ -313,11 +313,11 @@ body{
 	margin-bottom: 30px;
 	position: relative;
 }
-.incline-div{
+.blue-sub{
 	position: absolute;
 	top: 3px;
 	left: 0;
-	border-top: 60px solid #0000ffff;
+	border-top: 60px solid #20368F;
 	border-right: 60px solid transparent;
 	margin-left: -15px;
 	width: 250px;
