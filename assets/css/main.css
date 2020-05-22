@@ -206,8 +206,14 @@ body{
 	color: #fff;
 }
 
+/*Bottom of 3 Pics*/
 
-
+.color-box {
+	float:left; 
+	background-color:white; 
+	height: 
+	200px;
+}
 
 /*======================================================================
 ##		Footer widget Section
@@ -428,6 +434,7 @@ body{
 .page-bgc{
 	background-color: #fff;
 	padding-bottom: 29px;
+	padding-top: 29px;
 }
 
 .intro{
