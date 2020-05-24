@@ -1,4 +1,4 @@
-$(document).ready(function(){
+$(document).ready(function( $ ){
 
     // Partner slider
         $('#partner-slider').owlCarousel({
@@ -70,4 +70,30 @@ $(document).ready(function(){
 
 
 
+
+
+        //Pasted Content Starts
+
+
+        $("#google-reviews").googlePlaces({
+            placeId: 'ChIJOSTFYzXHwokRwEqav2feyEA' //Find placeID @: https://developers.google.com/places/place-id
+        , render: ['reviews']
+        , min_rating:4
+        , max_rows:5
+        ,rotateTime: false
+        , shorten_names: true
+        });
+
+        //Pasted content ends
+
+
+
+
+
+
+
+
+
+
 }); // end of $(document).ready(function()
+
