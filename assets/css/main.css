@@ -230,12 +230,10 @@ body{
 /*REVIEW STUFF ---------------------------------------------------------*/
 .goog-reviews{
 	align-items: center;
-	padding-top: 9%
+	padding-top: 20%
 }
 
 /*Start of pasted*/
-
-
 
 
 
@@ -304,17 +302,6 @@ span.review-profile-image img {
 }
 .review-stars ul li i.inactive { color: #c6c6c6;}
 .star:after { content: "\2605"; }
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -687,6 +674,7 @@ span.review-profile-image img {
 	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 .shop-box-title h4{
+	
 	margin: 0 0 5px 0;
 	font-weight: 700;
 }
@@ -733,7 +721,7 @@ span.review-profile-image img {
 	margin: 0;
 }
 .contact h4{
-	padding: 40px 0 30px;
+	padding:  0 30px;
 }
 .contact-detail{
 	border-bottom: 1px solid #ddd;
