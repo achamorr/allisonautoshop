@@ -7,12 +7,9 @@ body{
 
 /*Navbar*/
 
-
-
 /* Style the navbar */
 #navbar {
 	width: 100%;
-	overflow: hidden;
 	z-index: 100;
 	background-color: #222222;
 
@@ -190,7 +187,6 @@ body{
 .main-header{
 	/*used for call number
 	*/
-	
 	text-transform: uppercase;
 	text-align: center;
 	color: black;
