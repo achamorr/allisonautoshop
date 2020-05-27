@@ -23,10 +23,6 @@
         <link href="assets/css/ionicons.css" rel="stylesheet">
         <link href="assets/css/main.css" rel="stylesheet">
 
-
-
-        
-
         
     </head>
 
@@ -36,60 +32,69 @@
         
         
 
-    <!-- Header (Everything with backdrop as car and hands-->
+    <!-- Header-->
 
+
+        <!--NAVBAR-->
+        <nav class="navbar bg-light fixed-top navbar-default navbar-expand-lg navbar-light shadow" id="navbar">
+                    
+            <div class="navbar" id="navbarSupportedContent" style = width:max-content>
+
+                <!--AAC Logo-->
+                <a href="index.html">
+                    <img src="assets/images/logo.png"  width = "200" height="70" alt="logo">
+                </a>                    
+
+                <!--Allows for hamburger menu-->
+                <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle navbar-toggler ml-auto">
+                    <!-- Allows for hamburger menu -->
+                    <span class="navbar-toggler-icon"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+                <!--Navbar Links-->
+                <ul id="navbarCollapse" class="navbar-nav mr-auto" style="padding-top: 9%;">
+                    <a class="nav-link" href="index.html" style="font-weight:600; font-size: larger;">
+                        Home                                
+                    </a>
+
+                    <a class="nav-link" href="about.html" style="font-weight:600; font-size: larger;">
+                        About                               
+                    </a>
+
+                    <a class="nav-link" href="index.html" style="font-weight:600; font-size: larger;">
+                        Services                               
+                    </a>
+
+                    <a class="nav-link" href="index.html" style="font-weight:600; font-size: larger;">
+                        Booking                              
+                    </a>
+
+                    <!-- Dropdown (Use Later perhaps)
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Dropdown
+                    </a>
+
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <div class="dropdown-divider">
+                        </div>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                    -->  
+                </ul>
+
+            </div>
+        </nav>
+
+
+        <!--Everything after Navbar in Header-->
         <section id="header" class="main-header">
             <div class="container-fluid">
-
-                <!--NAVBAR-->
-                <nav class="navbar sticky-top navbar-light bg-light" position ="sticky" id="navbar">
-                  
-                    <div class="navbar" id="navbarSupportedContent" style = width:max-content>
-
-                        <!--AAC Logo-->
-                        <div class="container">
-                            <div class="row">
-                                
-                                <a href="index.html">
-                                    <img src="assets/images/logo.png"  width = "200" height="70" alt="logo">
-                                </a>
-                                
-                            </div>
-                        </div>
-
-
-                      <ul class="navbar-nav mr-auto">
-                            <li class="nav-item active">
-                                <a class="nav-link" href="#">
-                                    Home 
-                                    <span class="sr-only">
-                                        (current)
-                                    </span>
-                                </a>
-
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Link</a>
-                                </li>
-                                <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    Dropdown
-                                </a>
-                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <a class="dropdown-item" href="#">Action</a>
-                                    <a class="dropdown-item" href="#">Another action</a>
-                                    <div class="dropdown-divider"></div>
-                                    <a class="dropdown-item" href="#">Something else here</a>
-                                </div>
-                            </li>
-                      </ul>
-        
-                    </div>
-                </nav>
-
-                
                 <div class="intro row">
-
                     <div class="overlay">
                     </div>
 
@@ -113,9 +118,6 @@
                     </div>
 
                 </div> <!-- /.intro.row -->
-
-
-
             </div> <!-- /.container -->
         </section> 
         <!-- /#header -->
@@ -130,43 +132,52 @@
                 <div class="row">
                     <div class="col-sm-12">
                         <div class="title-box">
-                            <h2 class="title">Automotive shop at your service<span>  | you can count on our ASE certified technicians</span></h2>
+                            <h2 class="title">
+                                Automotive shop at your service
+                                <span>  
+                                    | you can count on our ASE certified technicians
+                                </span>
+                            </h2>
                             <a href="#partner" class="btn btn-default btn-view-services">
                                 view services
                             </a>
                         </div>
                     </div>
                 </div>
-
             </div>
         </section>
 
 
    <!-- Product -->
 
-        <section id="product" class="product">
-            <div class="container section-bg">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="title">
-                            <h3 class="outer-stiker" style="text-align: center">Welcome</h3>
-                            <div class="blue-sub"></div>
-                        </div>
-                        <div><div> </div></div>
-                        <div class="col-md-6">
-                            <h2 class="title welcome">
-                                Ossining Auto Repair Specialists <br> 
-                                Family Owned & Operated
-                            </h2>
-                        </div>
-                        <div class="col-md-6">
-                            <p class="p-large">
-                                <img class="widget-img" src="assets/images/outside.png" alt="widget">
-                            </p>
+    <section id="product" class="product">
+        <div class="container section-bg">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="title">
+                        <h3 class="outer-stiker" style="text-align: center">
+                            Welcome
+                        </h3>
+                        <div class="blue-sub">
                         </div>
                     </div>
-                </div>
-        </section>
+
+                    <div class="col-md-6">
+                        <h2 class="title welcome">
+                            Ossining Auto Repair Specialists <br> 
+                            Family Owned & Operated
+                        </h2>
+                    </div>
+
+                    <div class="col-md-6">
+                        <p class="p-large">
+                            <img class="widget-img" src="assets/images/outside.png" alt="widget">
+                        </p>
+                    </div>
+                </div>    
+            </div>
+        </div>
+    </section>
 
 
  <!-- Partner -->

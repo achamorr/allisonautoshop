@@ -42,6 +42,49 @@ body{
 	padding-top: 60px;
   }
 
+  /* Navigation */
+.navbar-header {
+	padding: 0;
+}
+
+.navbar-header .col {
+    padding: 0 !important;
+}	
+
+.navbar {		
+    padding-right: 16px;
+    box-shadow: 0 0 4px rgba(0,0,0,.1);
+}
+
+.navbar .navbar-brand {
+    color: white;
+    padding-left: 0;
+    padding-right: 0px;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar ul.nav li.active a, .navbar ul.nav li.active a:hover, .navbar ul.nav li.active a:focus {
+    background: transparent !important;
+}
+
+.navbar .nav-item i {
+    font-size: 18px;
+}
+
+.navbar .nav-item.open > a {
+    background: none !important;
+}
+
+.dropdown-toggle::after {
+    display: none;
+}
+
+a.nav-link {
+    color: white !important;
+}
+/* End of Navigation */
+
 
 
 
@@ -248,11 +291,11 @@ body{
 	background-color: transparent;
 }
 .navbar .navbar-nav {
-    display: inline-block;
+	display: inline-block;
     float: none;
 }
 .navbar .navbar-collapse {
-    text-align: center;
+	text-align: center;
 }
 .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
 	color: #fff;
