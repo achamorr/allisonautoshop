@@ -38,7 +38,7 @@
         <!--NAVBAR-->
         <nav class="navbar bg-light fixed-top navbar-default navbar-expand-lg navbar-light shadow" id="navbar">
                     
-            <div class="navbar" id="navbarSupportedContent" style = width:max-content>
+            <div class="navbar d-flex col" id="navbarSupportedContent" style = width:max-content>
 
                 <!--AAC Logo-->
                 <a href="index.html">
@@ -46,16 +46,18 @@
                 </a>                    
 
                 <!--Allows for hamburger menu-->
-                <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle navbar-toggler ml-auto">
-                    <!-- Allows for hamburger menu -->
-                    <span class="navbar-toggler-icon"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-
+                <div class="navbar-header d-flex col" style="position: relative;">
+                    <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle navbar-toggler ml-auto">
+                        <!-- Allows for hamburger menu -->
+                        <span class="navbar-toggler-icon"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
                 <!--Navbar Links-->
-                <ul id="navbarCollapse" class="navbar-nav mr-auto" style="padding-top: 9%;">
+                <ul id="navbarCollapse" class="justify-content-start navbar-nav mr-auto" style="padding-top: 9%;">
+
                     <a class="nav-link" href="index.html" style="font-weight:600; font-size: larger;">
                         Home                                
                     </a>

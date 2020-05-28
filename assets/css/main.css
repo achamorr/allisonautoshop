@@ -1,46 +1,41 @@
-body{
-	background-color: #ededed;
-	font-family: 'Oswald';
-	position: relative;
-	margin-top: 10;
+body{		
+	background-color: #ededed;		
+	font-family: 'Oswald';		
+	position: relative;		margin-top: 10;	
+}	/*Navbar*/	/* Style the navbar */	
+
+#navbar {	
+	width: 100%;	
+	z-index: 100;	
+	background-color: #222222;
 }
 
-/*Navbar*/
-
-/* Style the navbar */
-#navbar {
-	width: 100%;
-	z-index: 100;
-	background-color: #222222;
-
-  }
-  
-  /* Navbar links */
-  #navbar a {
-	float: left;
+/* Navbar links */
+#navbar a {	
+	float: left;	
 	display: block;
 	color: #f2f2f2;
-	text-align: center;
-	padding: 14px;
+	text-align: center;	
+	padding: 14px;	
 	text-decoration: none;
-  }
-  
-  /* Page content */
-  .content {
+}
+
+/* Page content */
+.content {	
 	padding: 16px;
-  }
-  
-  /* The sticky class is added to the navbar with JS when it reaches its scroll position */
-  .sticky {
-	position: fixed;
-	top: 0;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {	
+	position: fixed;	
+	top: 0;	
 	width: 100%;
-  }
-  
-  /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
-  .sticky + .content {
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {	
 	padding-top: 60px;
-  }
+}
 
   /* Navigation */
 .navbar-header {
