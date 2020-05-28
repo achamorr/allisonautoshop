@@ -33,64 +33,33 @@
         
 
     <!-- Header-->
-
-
-        <!--NAVBAR-->
-        <nav class="navbar bg-light fixed-top navbar-default navbar-expand-lg navbar-light shadow" id="navbar">
-                    
-            <div class="navbar d-flex col" id="navbarSupportedContent" style = width:max-content>
-
-                <!--AAC Logo-->
-                <a href="index.html">
-                    <img src="assets/images/logo.png"  width = "200" height="70" alt="logo">
-                </a>                    
-
-                <!--Allows for hamburger menu-->
-                <div class="navbar-header d-flex col" style="position: relative;">
-                    <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle navbar-toggler ml-auto">
-                        <!-- Allows for hamburger menu -->
-                        <span class="navbar-toggler-icon"></span>
+        <!--Navbar-->
+        <div class="sticky">
+            <nav class="navbar navbar-default">
+                <div class="navbar-header">
+                    <!--AAC Logo-->
+                <a href="index.html" >
+                    <img src="assets/images/logo.png" style="padding: 10px;"  width = "200" height="75" alt="logo">
+                </a> 
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#site-nav-bar" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
                 </div>
-                <!--Navbar Links-->
-                <ul id="navbarCollapse" class="justify-content-start navbar-nav mr-auto" style="padding-top: 9%;">
 
-                    <a class="nav-link" href="index.html" style="font-weight:600; font-size: larger;">
-                        Home                                
-                    </a>
-
-                    <a class="nav-link" href="about.html" style="font-weight:600; font-size: larger;">
-                        About                               
-                    </a>
-
-                    <a class="nav-link" href="index.html" style="font-weight:600; font-size: larger;">
-                        Services                               
-                    </a>
-
-                    <a class="nav-link" href="index.html" style="font-weight:600; font-size: larger;">
-                        Booking                              
-                    </a>
-
-                    <!-- Dropdown (Use Later perhaps)
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Dropdown
-                    </a>
-
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <div class="dropdown-divider">
-                        </div>
-                        <a class="dropdown-item" href="#">Something else here</a>
-                    </div>
-                    -->  
-                </ul>
-
-            </div>
-        </nav>
+                <div class="collapse navbar-collapse" id="site-nav-bar">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="shop.html">Shop</a></li>
+                        <li><a href="faq.html">FAQ</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </nav>
+        </div>
 
 
         <!--Everything after Navbar in Header-->
