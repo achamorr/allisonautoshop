@@ -116,7 +116,7 @@ a.nav-link {
 	position: relative;
     min-height: 1px;
 	text-align: center;
-	padding: 30px 0 50px;
+	padding: 30px 0 30px;
 	padding-left: 15px;
 	padding-right:15px;
 	text-transform: uppercase;
@@ -288,7 +288,8 @@ a.nav-link {
 }
 .navbar .navbar-nav {
 	display: inline-block;
-    float: none;
+	float: none;
+	
 }
 .navbar .navbar-collapse {
 	text-align: center;
@@ -561,7 +562,7 @@ span.review-profile-image img {
 .partner .section-bg{
 	background-color: #fff;
 	text-align: center;
-	padding-bottom: 80px;
+	padding-bottom:5px;
 }
 .partner .title{
 	color: #111;
