@@ -619,18 +619,19 @@ span.review-profile-image img {
 .intro{
 	background-color: #313131;
 }
-.faq-header .intro{
-	background-image: url(../images/faq-header.jpg);
+
+
+.about-header .intro{
+	background-image: url(../images/backdrop-about.JPG);
 }
-.shop-header .intro{
-	background-image: url(../images/shop-header.jpg);
+.services-header .intro{
+	background-image: url(../images/.jpg);
 }
 .contact-header .intro{
 	background-image: url(../images/contact-header.jpg);
 }
-.about-header .intro{
-	background-image: url(../images/about-header.jpg);
-}
+
+
 .about .page-bgc{
 	padding-bottom: 0;
 }
