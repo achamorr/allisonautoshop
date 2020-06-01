@@ -451,7 +451,11 @@ span.review-profile-image img {
 	letter-spacing: 2px;
 }
 
-
+.service-pic
+{
+	margin-top: auto;
+	margin-bottom: auto;
+}
 
 
 
