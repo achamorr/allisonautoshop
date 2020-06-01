@@ -453,8 +453,9 @@ span.review-profile-image img {
 
 .service-pic
 {
-	margin-top: auto;
-	margin-bottom: auto;
+	display: block;
+	margin: 0 auto;
+	vertical-align: middle;
 }
 
 
@@ -603,7 +604,7 @@ span.review-profile-image img {
 	font-weight: 300;
 }
 .inner-header .breadcrumb>.active{
-	color: #0000ffff;
+	color: rgb(129, 173, 255);
 }
 .inner-header .breadcrumb a{
 	color: #fff;
