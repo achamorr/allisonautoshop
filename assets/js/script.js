@@ -1,34 +1,4 @@
 $(document).ready(function( $ ){
-
-
-    //Navbar
-        // When the user scrolls the page, execute myFunction
-        window.onscroll = function() 
-        {
-            myFunction()
-        };
-
-        // Get the navbar
-        var navbar = document.getElementById("navbar");
-
-        // Get the offset position of the navbar
-        var sticky = navbar.offsetTop;
-
-        // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
-        function myFunction() {
-            if (window.pageYOffset >= sticky) 
-            {
-                navbar.classList.add("sticky")
-            } else 
-            {
-                navbar.classList.remove("sticky");
-            }
-        }
-
-
-
-
-
     // Partner slider
         $('#partner-slider').owlCarousel({
             loop:true,
@@ -46,9 +16,6 @@ $(document).ready(function( $ ){
                 }
             }
         }) // end of #partner-slider
-
-
-
 
     // Turn off Google Map zooming
         $('.map_canvas').addClass('scrolloff'); // set the pointer events to none on doc ready
@@ -97,23 +64,6 @@ $(document).ready(function( $ ){
             }
         }); //end of Pop Up
 
-
-
-
-
-        //Pasted Content Starts
-
-
-        $("#google-reviews").googlePlaces({
-            placeId: 'ChIJOSTFYzXHwokRwEqav2feyEA' //Find placeID @: https://developers.google.com/places/place-id
-        , render: ['reviews']
-        , min_rating:4
-        , max_rows:5
-        ,rotateTime: false
-        , shorten_names: true
-        });
-
-        //Pasted content ends
 
 }); // end of $(document).ready(function()
 

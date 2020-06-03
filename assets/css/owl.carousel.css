@@ -113,8 +113,10 @@
   -ms-user-select: none;
   user-select: none;
 }
+/*here*/
 .owl-carousel .owl-item img {
-  display: block;
+
+  display: absolute;
   width: 100%;
   -webkit-transform-style: preserve-3d;
 }
