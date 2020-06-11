@@ -557,6 +557,11 @@ a.nav-link {
 .services-header .intro{
 	background-image: url(../images/services.jpg);
 }
+.preventative-header .intro{
+	background-image: url(../images/preven_serv.png);
+}
+
+
 .contact-header .intro{
 	background-image: url(../images/outside.png);
 }
@@ -921,11 +926,11 @@ a.nav-link {
 	font-family: 'Roboto';
 	text-align: center;
 	position: absolute;
-	width: 55%;
+	width: 45%;
 	right: 0;
 	background-color: #f7f7f7;
 	color: #999;
-	/*padding: 20px;*/
+	padding: 20px;
 }
 .team-img-detail h4{
 	color: #111;
