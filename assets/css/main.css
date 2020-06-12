@@ -195,7 +195,11 @@ a.nav-link {
 	border-color: #0000ffff;
 }
 
-
+.services_text{
+	font-size: larger;
+	padding-left: 15%;
+	padding-right: 15%;
+}
 
 
 /*======================================================================
@@ -252,7 +256,7 @@ a.nav-link {
 }
 .main-header p{
 	font-weight: 300;
-	font-size: 18px;
+	font-size: 20px;
 	letter-spacing: 6px;
 }
 .header-title{
@@ -560,7 +564,24 @@ a.nav-link {
 .preventative-header .intro{
 	background-image: url(../images/preven_serv.png);
 }
-
+.tire-header .intro{
+	background-image: url(../images/tire_serv.jp2);
+}
+.ac-header .intro{
+	background-image: url(../images/a_c_serv.jp2);
+}
+.air-header .intro{
+	background-image: url(../images/filter.jpg);
+}
+.battery-header .intro{
+	background-image: url(../images/battery.jpg);
+}
+.brakes-header .intro{
+	background-image: url(../images/brakes.jpeg);
+}
+.light-header .intro{
+	background-image: url(../images/check_engine.jpg);
+}
 
 .contact-header .intro{
 	background-image: url(../images/outside.png);
@@ -847,9 +868,9 @@ a.nav-link {
 	margin-bottom: 60px;
 }
 .service-box p{
-	font-size: 13px;
+	font-size: 15px;
 	font-weight: 400;
-	color: #969595;
+	color: black;
 	margin-bottom: 0;
 }
 .service-title{
