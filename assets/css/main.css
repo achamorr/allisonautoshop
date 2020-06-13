@@ -195,6 +195,16 @@ a.nav-link {
 	border-color: #0000ffff;
 }
 
+.services_titles{
+	font-size: larger;
+	padding-left: 15%;
+	padding-right: 15%;
+	display: table;
+	font-family: 'Roboto';
+	font-size: 25px;
+	text-transform: capitalize;
+}
+
 .services_text{
 	font-size: larger;
 	padding-left: 15%;
@@ -582,9 +592,39 @@ a.nav-link {
 .light-header .intro{
 	background-image: url(../images/check_engine.jpg);
 }
+.engine-header .intro{
+	background-image: url(../images/engine.jpg);
+}
+.exhaust-header .intro{
+	background-image: url(../images/exhaust.jpg);
+}
+.inspection-header .intro{
+	background-image: url(../images/inspection.jpg);
+}
+.intoxa-header .intro{
+	background-image: url(../images/intoxalock.png);
+}
+.intoxa-header .intro{
+	background-image: url(../images/intoxalock.png);
+}
+.steering-header .intro{
+	background-image: url(../images/suspension.jpg);
+}
+.transmission-header .intro{
+	background-image: url(../images/transmission.webp);
+}
+.electronics-header .intro{
+	background-image: url(../images/electronics.jpg);
+}
+.diesel-header .intro{
+	background-image: url(../images/diesel.jpg);
+}
+.equipment-header .intro{
+	background-image: url(../images/equipment.jpg);
+}
 
-.contact-header .intro{
-	background-image: url(../images/outside.png);
+.oil-header .intro{
+	background-image: url(../images/oil.jpg);
 }
 
 
