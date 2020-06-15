@@ -631,6 +631,10 @@ a.nav-link {
 .about .page-bgc{
 	padding-bottom: 0;
 }
+.book-header .intro{
+	background-image: url(../images/outside.png);
+}
+
 
 /*MY CSS*/
 .name-tags{
