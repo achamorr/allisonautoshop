@@ -22,7 +22,7 @@ body{
 
 /* Page content */
 .content {	
-	padding: 16px;
+	padding:16px;
 }
 
 /* The sticky class is added to the navbar with JS when it reaches its scroll position */
@@ -54,7 +54,7 @@ body{
 
 .navbar .navbar-brand {
     color: white;
-    padding-left: 0;
+    padding-left: 0px;
     padding-right: 0px;
     font-size: 20px;
     font-family: 'Montserrat', sans-serif;
@@ -281,10 +281,6 @@ a.nav-link {
 	background-repeat: no-repeat;
 	background-position: center;
 	padding: 150px;
-	
-	/*margin-bottom: -90px;
-
-*/
 
 	z-index: 11;
 	position: relative;
@@ -470,9 +466,6 @@ a.nav-link {
 		padding: 0 80px;
 	}
 }
-
-/* iframe for reviews*/
-
 
 
 /*======================================================================
@@ -1047,8 +1040,4 @@ a.nav-link {
 	}
 }
 
-/*Booking*/
-#msm_appointment_iframe
-{
-	
-}
+/*iframe for booking*/
